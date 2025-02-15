@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    font-family: 'inter';
+}
+
+.container {
+    width: 100%;
+    height: 350px;
+    background-image: url(imagens/fundo-inicial.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-right: 0%;
+}
+
+.texto {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+}
+
+.texto-container {
+    position: absolute;
+    top: 70%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+}
+
+.menu-informacional {
+    width: 100%;
+    height: 229px;
+    background-image: url(imagens/fundo-informacional.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+display: flex;
+justify-content: space-around;
+}
+
+.texto-informacional{
+    text-align: center;
+    margin-top: 90px;
+    font-size: 20px;
+}
+
+.menu-historia {
+    padding: 20px;
+}
+
+.conteudo-historia {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.texto-historia {
+    flex: 1;
+    margin-left: 100px;
+}
+
+.texto-historia strong {
+    font-size: 40px;
+}
+
+.escada {
+    max-width: 600px;
+    height: auto;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+#formulario{
+    text-align: center;
+    background-image: url(imagens/fundo-formulario.svg);
+    display: block;
+    }
+    
+    #titulo-formulario{
+    font-size: 25px;
+    padding-top: 30px;
+    margin: 25px;
+    color: #FFFFFF;
+    }
+    
+    input{
+        width: 380px;
+        height: 52px;
+        background-color: #EAECE5;
+        margin: 15px;
+        border: 0px;
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+    
+    button{
+        background-color: #C07212;
+        height: 50px;
+        width: 160px;
+        color: #EAECE5;
+        border: 0px;
+        border-radius: 5px;
+        margin-top: 25px;
+        margin-bottom: 60px;
+        font-weight: bolder;
+        font-size:large;
+        cursor: pointer;    
+    }
+    button:hover{
+        background-color: #C07212;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #05103081;
+    transition-duration: -0.5s;
+    
+    }
